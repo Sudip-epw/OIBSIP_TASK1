@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #373737, #000000);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf0f3;
+  height: 73vh;
+  width: 63%;
+  padding: 20px;
+  /* border-style: groove; */
+  border-radius: 10px;
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+  box-shadow: inset 4px 4px 10px rgb(75, 75, 75),
+    inset -4px -4px 10px rgb(75, 75, 75);
+}
+.input_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 14px;
+  margin: 10px;
+  background: #ecf0f3;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  color: #000000;
+}
+
+input::placeholder {
+  color: #000000;
+}
+
+.btn_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+button {
+  text-align: center;
+  align-items: center;
+  border: none;
+  width: 55px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 20px;
+  color: #000000;
+  font-size: 20px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #d3d2d2;
+  cursor: pointer;
+}
+
+.equalBtn {
+  background-color: #fb8b14;
+}
+
+.operator {
+  color: #ee0a0a;
+}
