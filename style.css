@@ -94,6 +94,10 @@ button:hover {
 .equalBtn {
   background-color: #fb8b14;
 }
+.equalBtn:hover {
+  background-color: #e17502;
+  color: #fff;
+}
 
 .operator {
   color: #ee0a0a;
